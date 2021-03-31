@@ -85,6 +85,10 @@ body {
     max-width: 455px;
 }
 
+.top__title::selection {
+    background: #C5AC2D;
+}
+
 .top__text {
     font-size: 24px;
     line-height: 28px;
@@ -133,6 +137,21 @@ body {
     border-radius: 50%;
     padding: 0;
 }
+
+
+/* #element::-webkit-scrollbar {
+    width: 10px;
+}
+
+#element::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+}
+
+#element::-webkit-scrollbar-thumb {
+    background-color: #f2bf93;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .25) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .25) 50%, rgba(255, 255, 255, .25) 75%, transparent 75%, transparent);
+} */
 
 .slick-active button {
     width: 16px;
@@ -631,6 +650,11 @@ body {
     }
     .top__slider-text {
         padding-right: 0;
+    }
+    .top__slider-images {
+        align-items: center;
+        width: 90%;
+        height: 90%;
     }
     .benefits__images {
         width: 70%;
